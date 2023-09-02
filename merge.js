@@ -11,11 +11,16 @@ const list = [
 
 function mergeSort (first, last) {
 
+    let middle = Math.round((first + last) / 2);
 
-    if (first < last) {
-        let middle = (first + last) / 2;
-        mergeSort(first, middle);
-    }
+    console.log(middle);
+    
+//     if (first < last) {
+        
+//         console.log(middle)
+//         mergeSort(first, middle)
+
+//     } else console.log("a");;
 }
 
-mergeSort(list.indexOf(list[1]), list.indexOf(list[7]));
+mergeSort(list.indexOf(list[0]), list.indexOf(list[7]));
