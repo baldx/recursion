@@ -7,3 +7,17 @@ function sortMerge (arr) {
     const right = arr.slice(middle, arr.length) // right half of the array is divided
 
 }
+
+function merge (left, right) {
+    const result = []; //declare result as an empty array so it can merge the incoming arrays
+
+    let iL = 0;
+    let iR = 0;
+
+    while (iL < left.length && iR < right.length) {
+        if (left[iL] < right[iR]) {
+            
+        }
+
+    }
+}
